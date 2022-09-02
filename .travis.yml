@@ -2,7 +2,7 @@ dist: xenial
 group: dev
 language: go
 go:
-  - 1.18.4
+  - 1.18
 script:
   - go version
   - go run hello.go
