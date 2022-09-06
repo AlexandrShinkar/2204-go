@@ -1,6 +1,8 @@
 dist: xenial
 group: edge
 language: opal
-script:
+rvm:
+ - "1.18.4"
+ script:
   - go version
   - go run hello.go
