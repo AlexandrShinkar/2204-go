@@ -2,7 +2,7 @@ dist: xenial
 group: edge
 language: opal
 rvm:
- - "1.18.4"
+ - 1.18.4
  script:
   - go version
   - go run hello.go
