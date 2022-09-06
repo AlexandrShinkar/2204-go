@@ -1,6 +1,6 @@
 dist: xenial
-group: dev
-language: go
+group: edge
+language: opal
 script:
   - go version
   - go run hello.go
